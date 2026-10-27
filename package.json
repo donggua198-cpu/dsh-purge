@@ -90,7 +90,7 @@
     "@deepseek-ai/cordis": "^4.0.1"
   },
   "engines": {
-    "node": ">=18"
+    "node": "^22.19.0"
   },
   "dshTarget": "0.2.1-rc.2"
 }
