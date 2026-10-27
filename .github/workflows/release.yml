@@ -21,6 +21,10 @@ jobs:
         with:
           fetch-depth: 0
 
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+
       - name: Syntax-check plugin entry
         run: |
           node --check lib/index.js
